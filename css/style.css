@@ -1,0 +1,704 @@
+@font-face {
+  font-family: 'proxima_nova_ththin';
+  src: url('../fonts/proxima_nova_thin-webfont.eot');
+  src: url('../fonts/proxima_nova_thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proxima_nova_thin-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_thin-webfont.woff') format('woff'), url('../fonts/proxima_nova_thin-webfont.ttf') format('truetype'), url('../fonts/proxima_nova_thin-webfont.svg#proxima_nova_ththin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_ltlight';
+  src: url('../fonts/proximanova-light-webfont.eot');
+  src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-light-webfont.woff2') format('woff2'), url('../fonts/proximanova-light-webfont.woff') format('woff'), url('../fonts/proximanova-light-webfont.ttf') format('truetype'), url('../fonts/proximanova-light-webfont.svg#proxima_nova_ltlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url('../fonts/proximanova-reg-webfont.eot');
+  src: url('../fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-reg-webfont.woff2') format('woff2'), url('../fonts/proximanova-reg-webfont.woff') format('woff'), url('../fonts/proximanova-reg-webfont.ttf') format('truetype'), url('../fonts/proximanova-reg-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_rgbold';
+  src: url('../fonts/proximanova-bold-webfont.eot');
+  src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-bold-webfont.woff') format('woff'), url('../fonts/proximanova-bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clear {
+  clear: both;
+}
+html,
+body {
+  height: 100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input::-webkit-input-placeholder {
+  color: #16112a;
+}
+input:-moz-placeholder {
+  color: #16112a;
+}
+body {
+  color: #16112a;
+  background-color: #fff;
+  font-size: 100%;
+}
+.f_clear {
+  height: auto;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  font: 20px/53px 'proxima_nova_ltlight';
+}
+.button-red {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  font: 20px/53px 'proxima_nova_ltlight';
+  color: #ff4552;
+  width: 288px;
+  height: 53px;
+  border: 1px solid #ff4552;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.button-red:hover,
+.button-red:focus {
+  border-color: #211b39;
+  color: #211b39;
+}
+.button-red:active {
+  background: #ff4552;
+  color: #fff;
+  border-color: #ff4552;
+}
+.button-blue {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  font: 20px/53px 'proxima_nova_ltlight';
+  width: 228px;
+  height: 53px;
+  line-height: 55px;
+  background-color: #151129;
+  color: #fff;
+}
+.button-blue:hover,
+.button-blue:focus {
+  background-color: #211b39;
+}
+.button-blue:active {
+  background-color: #0596a6;
+}
+/*HEADER*/
+.site-header {
+  height: 1000px;
+  background: url(../img/bg.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.site-header::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(12, 12, 48, 0.58);
+}
+.menu-trigger {
+  position: absolute;
+  background: url(../img/menu.png) no-repeat;
+  top: 44px;
+  left: 47px;
+  width: 30px;
+  height: 23px;
+  z-index: 2;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.menu-trigger:hover {
+  cursor: pointer;
+  background: url(../img/menuh.png) no-repeat;
+}
+.menu-trigger:active {
+  background: url(../img/menua.png) no-repeat;
+}
+.main-menu {
+  position: absolute;
+  top: 0;
+  left: -320px;
+  width: 320px;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 94px 47px;
+  will-change: transform;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.main-menu a.ancLinks {
+  padding: 20px 0;
+  display: block;
+  color: #d0d9d6;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.main-menu a.ancLinks + a {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.main-menu a.ancLinks:hover,
+.main-menu a.ancLinks:focus {
+  color: #15c3d6;
+  outline: none;
+}
+.main-menu-mobile {
+  display: none;
+}
+.main-menu-active {
+  -webkit-transform: translate3d(320px, 0, 0);
+  transform: translate3d(320px, 0, 0);
+}
+.header-contacts {
+  display: none;
+  float: right;
+  padding: 29px 31px 0 0;
+}
+.header-contacts a {
+  float: left;
+  display: block;
+  color: #d0d9d6;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+}
+.header-contacts a:nth-child(1) {
+  font: 22px/53px 'proxima_nova_ththin';
+}
+.header-contacts a:nth-child(1)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../img/icon1.png) center no-repeat;
+  width: 24px;
+  height: 53px;
+  top: 0;
+  left: -36px;
+}
+.header-contacts a:nth-child(2) {
+  margin-left: 92px;
+  font: 22px/53px 'proxima_nova_ltlight';
+  width: 197px;
+  height: 53px;
+  border: 1px solid #919baa;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.header-contacts a:nth-child(2)::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../img/icon2.png) center no-repeat;
+  top: -1px;
+  left: -59px;
+  width: 59px;
+  height: 53px;
+  border: 1px solid #919baa;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.header-contacts a:nth-child(2):hover,
+.header-contacts a:nth-child(2):focus {
+  border-color: #fff;
+  color: #fff;
+}
+.header-contacts a:nth-child(2):hover::before,
+.header-contacts a:nth-child(2):focus::before {
+  border-color: #fff;
+  background: url(../img/icon2h.png) center no-repeat;
+}
+.header-contacts a:nth-child(2):active {
+  border-color: #15c3d6;
+  color: #15c3d6;
+}
+.header-contacts a:nth-child(2):active::before {
+  border-color: #15c3d6;
+  background: url(../img/icon2a.png) center no-repeat;
+}
+.main-logo {
+  background: url(../img/logo.png) no-repeat;
+  position: absolute;
+  top: 421px;
+  left: 50%;
+  margin-left: -247px;
+  width: 494px;
+  height: 142px;
+}
+.collage-anchor {
+  display: none;
+  background: url(../img/icon3.png) no-repeat;
+  position: absolute;
+  bottom: 164px;
+  left: 50%;
+  margin-left: -35px;
+  width: 71px;
+  height: 71px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.collage-anchor:hover,
+.collage-anchor:focus {
+  background: url(../img/icon3h.png) no-repeat;
+}
+.collage-anchor:active {
+  background: url(../img/icon3a.png) no-repeat;
+}
+.container-fluid h3,
+.container h3 {
+  padding: 120px 0 50px;
+  font: 2.5rem 'proxima_nova_ththin';
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container-fluid p.description,
+.container p.description {
+  text-align: center;
+  font-size: 1rem;
+}
+.collage {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.collage-box {
+  float: left;
+  height: 363px;
+  position: relative;
+}
+.collage-box:hover {
+  cursor: pointer;
+}
+.collage-box:hover::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(12, 12, 48, 0.58);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.collage-box:nth-child(1) {
+  background: url(../img/block1.jpg) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(2) {
+  background: url(../img/block2.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(3) {
+  background: url(../img/block3.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(3) .description {
+  margin-top: -1em;
+}
+.collage-box:nth-child(4) {
+  background: url(../img/block4.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(4) .description {
+  margin-top: -1em;
+}
+.collage-box:nth-child(5) {
+  background: url(../img/block5.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(5) .description {
+  margin-top: -1em;
+}
+.collage-box:nth-child(6) {
+  background: url(../img/block6.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(6) .description {
+  margin-top: -1em;
+}
+.collage-box:nth-child(7) {
+  background: url(../img/block7.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(7) .description {
+  margin-top: -1em;
+}
+.collage-box:nth-child(8) {
+  background: url(../img/block8.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(9) {
+  background: url(../img/block9.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box:nth-child(10) {
+  background: url(../img/block10.jpg) no-repeat 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.collage-box .description {
+  font: 1.25rem/1.38rem 'proxima_nova_ththin';
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  height: 4em;
+  top: 50%;
+  margin-top: -2em;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.collage-box .triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 49px 28px 49px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  margin-left: -48px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#collage .collage-click {
+  background: #0596a6;
+}
+#collage .collage-click .description {
+  visibility: hidden;
+}
+#collage .collage-click::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../img/line1.png) no-repeat;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  margin: -44px 0 0 -1px;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: rotateforward;
+  animation-name: rotateforward;
+  width: 2px;
+  height: 87px;
+}
+#collage .collage-click::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 87px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: url(../img/line1.png) no-repeat;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  margin: -44px 0 0 -1px;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: rotateback;
+  animation-name: rotateback;
+}
+#collage .collage-click .triangle {
+  bottom: 0;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes rotateforward {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+@-webkit-keyframes rotateback {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+}
+.collage-content-1 {
+  padding-top: 149px;
+}
+.collage-content-1 h1 {
+  color: #0596a6;
+  font: 6.25rem 'proxima_nova_ththin';
+  text-align: center;
+  text-transform: uppercase;
+}
+.collage-content-1 h3 {
+  font: 2.5rem 'proxima_nova_ththin';
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.collage-content-1 blockquote.big-blockquote {
+  margin-top: 40px;
+  font: italic 2.5rem/3.5rem 'PT Serif Caption';
+  text-align: center;
+}
+.collage-content-1 blockquote.small-blockquote {
+  font: italic 1.25rem/2.25rem 'PT Serif Caption';
+  text-align: left;
+  color: #515151;
+}
+.collage-content-1 small {
+  margin-top: 20px;
+  display: block;
+  font: 16px 'proxima_nova_rgregular';
+  text-align: center;
+}
+.collage-content-1 .features ul {
+  float: left;
+  max-width: 320px;
+}
+.collage-content-1 .features ul:nth-child(1) {
+  margin-left: 45px;
+}
+.collage-content-1 .features ul + ul {
+  margin-left: 111px;
+}
+.collage-content-1 .features .bike-image {
+  margin-top: 78px;
+  height: 597px;
+}
+.collage-content-1 .features li {
+  font: 1.19rem/1.94rem 'proxima_nova_rgregular';
+  position: relative;
+  padding: 10px 0;
+}
+.collage-content-1 .features li + li {
+  border-top: 1px solid #e8e8ea;
+}
+.collage-content-1 .features li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../img/icon5.png) no-repeat;
+  top: 17px;
+  left: -38px;
+  width: 21px;
+  height: 14px;
+}
+.collage-content-1 .features .link-wrapper {
+  width: 337px;
+  margin: 0 auto;
+  height: 53px;
+  background: #fff;
+  position: relative;
+  top: 35px;
+}
+.collage-content-1 .features a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  font: 20px/53px 'proxima_nova_ltlight';
+  color: #ff4552;
+  width: 288px;
+  height: 53px;
+  border: 1px solid #ff4552;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+.collage-content-1 .features a:hover,
+.collage-content-1 .features a:focus {
+  border-color: #211b39;
+  color: #211b39;
+}
+.collage-content-1 .features a:active {
+  background: #ff4552;
+  color: #fff;
+  border-color: #ff4552;
+}
+.separator {
+  height: 125px;
+}
+.separator::before,
+.separator::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #e8e8ea;
+  z-index: -1;
+  position: relative;
+  vertical-align: middle;
+}
+.separator::before {
+  right: 15px;
+  margin: 0 0 0 -100%;
+}
+.separator::after {
+  left: 15px;
+  margin: 0 -100% 0 0;
+}
+.separator-icon {
+  background: url(../img/icon4.png) center no-repeat, #ffffff;
+  margin: 0 auto;
+  width: 136px;
+  height: 71px;
+  position: relative;
+  top: 45px;
+}
+#map_canvas {
+  width: 100%;
+  height: 539px;
+}
+.contacts-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.contacts-info .contacts-info-block {
+  margin: auto;
+}
+.contacts-info .logo-2 {
+  background: url(../img/logo2.png) no-repeat;
+  width: 220px;
+  height: 44px;
+}
+.contacts-info a {
+  display: block;
+  color: #16112a;
+  text-decoration: none;
+}
+.contacts-info .email span {
+  text-decoration: underline;
+}
+.contacts-info .email span:hover,
+.contacts-info .email span:focus {
+  text-decoration: none;
+}
+.request .form-horizontal {
+  margin-top: 90px;
+}
+.request .form-group {
+  border-bottom: 1px solid #e8e8ea;
+  margin-bottom: 0;
+  width: 100%;
+  margin: 0 0 28px 0;
+}
+.request .form-control {
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-family: 'proxima_nova_rgregular';
+}
+.request .control-label {
+  padding: 0;
+  font-size: 1rem;
+  font-family: 'proxima_nova_rgregular';
+}
+.request textarea.form-control {
+  width: 100%;
+  height: 202px;
+  border: 1px solid #e7e7e9;
+  margin: 35px 0 0 0;
+}
+.request .button-blue {
+  display: block;
+  margin: 58px auto 0;
+}

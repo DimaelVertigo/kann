@@ -1,0 +1,1102 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"log",
+				"logo-m-retina.png	w:722 h:144"
+			],
+			[
+				"cl",
+				"cl	js-console-log"
+			],
+			[
+				"med",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"close",
+				"closeMenu"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"ico",
+				"icon2a.png	w:25 h:19"
+			],
+			[
+				"me",
+				"menua.png	w:30 h:23"
+			],
+			[
+				"ic",
+				"icon2h.png	w:25 h:19"
+			],
+			[
+				"lo",
+				"logo2.png	w:220 h:44"
+			],
+			[
+				"ma",
+				"mark3.png	w:7 h:7"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"b",
+				"bike.png	w:600 h:597"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"li",
+				"lib/"
+			],
+			[
+				"ab",
+				"aboutus"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"ba",
+				"banner.png	w:917 h:601"
+			],
+			[
+				"ban",
+				"banner-wrap.jpg	w:1200 h:773"
+			],
+			[
+				"icon",
+				"icon14.png	w:114 h:114"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"3",
+				"trf-t3	transform: translate3d(${1:tx}, ${2:ty}, ${3:tz});"
+			],
+			[
+				"mar",
+				"mark2.png	w:52 h:52"
+			],
+			[
+				"ho",
+				"hover	css-hover"
+			],
+			[
+				"j",
+				"banner.jpg	w:917 h:601"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "less/style.less",
+			"settings":
+			{
+				"buffer_size": 16406,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/mobile.less",
+			"settings":
+			{
+				"buffer_size": 6060,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/tablet.less",
+			"settings":
+			{
+				"buffer_size": 11202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/desktop.less",
+			"settings":
+			{
+				"buffer_size": 8183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 19323,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"bs3-co",
+				"Snippet: bs3-col"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"jq",
+				"Snippet: jquery"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3-f",
+				"Snippet: bs3-form"
+			],
+			[
+				"bs3-ro",
+				"Snippet: bs3-row"
+			],
+			[
+				"bs3-we",
+				"Snippet: bs3-well"
+			],
+			[
+				"bs3-me",
+				"Snippet: bs3-media-object"
+			],
+			[
+				"bs3-",
+				"Snippet: bs3-carousel"
+			],
+			[
+				"bs3-foo",
+				"Snippet: bs3-panel-footer"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-col"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"smar",
+				"Set Syntax: Smarty"
+			],
+			[
+				"smart",
+				"Set Syntax: Smarty"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dorosh/Desktop/KANN/index.html",
+		"/Users/dorosh/Desktop/KANN/css/bootstrap.css",
+		"/Users/dorosh/Desktop/KANN/js/scripts.js",
+		"/Users/dorosh/Desktop/KANN/collage-content-1.html",
+		"/Users/dorosh/Desktop/TouchSwipe-Jquery-Plugin-master/demos/Basic_swipe.html",
+		"/Users/dorosh/Desktop/TouchSwipe-Jquery-Plugin-master/demos/Any_finger_swipe.html",
+		"/Users/dorosh/Desktop/TouchSwipe-Jquery-Plugin-master/demos/js/main.js",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.qV041s/0/jquery.touchSwipe.js",
+		"/Users/dorosh/Desktop/KANN/less/mobile.less",
+		"/Users/dorosh/Desktop/KANN/css/style.css",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/new default/js/scripts.js",
+		"/Users/dorosh/Desktop/KANN/css/tablet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.isFVaj/0/placeholder.less",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.isFVaj/1/flex.js",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/User/css-display-flex.sublime-snippet",
+		"/Users/dorosh/Desktop/KANN/less/desktop.less",
+		"/Users/dorosh/Desktop/KANN/less/tablet.less",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/response default/less/style.less",
+		"/Users/dorosh/Dropbox/Klim/Front end/bootstrap default/less/style.less",
+		"/Users/dorosh/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css",
+		"/Users/dorosh/Desktop/monokai-dark.less",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/User/css-media.sublime-snippet",
+		"/Users/dorosh/Desktop/modernizr.custom.10759.js",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/User/css-will-change.sublime-snippet",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.mKXbAY/0/bootstrap.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.WiIQMv/0/bootstrap.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.eq3Ca3/2/buttons.less",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.eq3Ca3/1/grid.less",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.eq3Ca3/0/bootstrap.less",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.P7tWHr/0/grid.less",
+		"/Users/dorosh/Desktop/HeadsUpGrid_download/example_responsive.html",
+		"/Users/dorosh/Desktop/KANN/js/modulargrid.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/22A67A23-3249-4720-9D1E-83BDB0C75586/examle.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/2A1F05C4-1FEB-4721-9E13-2FC0CD450D30/example.css",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/new default/tmpl/home.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/D3F54E13-E154-4320-9F18-5559D1D99B33/examle.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/06669687-A376-42C6-B717-3331765FFBFC/Текст поверх линии.css",
+		"/Users/dorosh/Desktop/example.css",
+		"/Users/dorosh/Desktop/HoverEffectIdeas/css/set1.css",
+		"/Users/dorosh/Desktop/HoverEffectIdeas/index.html",
+		"/Users/dorosh/Desktop/KANN/bootstrap.css",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/6C9D194A-86CC-49AA-9346-4D7C99874320/scroll.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/FBCCEED7-A249-4BB8-9D89-F58B031FA79A/scroll.js",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.CQk2PG/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.3r1s1T/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.S0lYDV/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.TDwnFO/0/stylesheet.css",
+		"/private/var/folders/cz/868h90kn16j44rd5815021xr0000gn/T/.entp.XaD8BE/0/change_compound.tpl",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/sftp-config.json",
+		"/Users/dorosh/Desktop/Flush Revolution/index.html",
+		"/Users/dorosh/Desktop/Flush Revolution/less/style.less",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/flush_revolution/style.css",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/416CB915-02B7-43DB-A515-A225A4F31B34/scroll.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/C7E6437E-BC1B-4876-BB3A-92976F756EF5/scroll.tpl",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-includes/plugin.php",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/flush_revolution/inc/stylesheets.php",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/31D185CF-92D1-4109-B954-AC9159871D27/scroll.js",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/js/scripts.js",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/index.php",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/less/style.less",
+		"/Users/dorosh/Desktop/BigVideo.js-gh-pages/bower_components/video.js/video.js",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/Gruntfile.js",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/70A7C984-E99D-49D0-AC28-C0DB8C60A212/functions.php",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/footer.php",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/tmpl/referal.links.tpl",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/style.min.css",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/inc/stylesheets.php",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/93E23421-7F1A-455E-9913-DAF19F9D6C5A/functions.php",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Theme_Head.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Sidebar_Template.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Shortcode.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Schedule_Recurring_Event.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Register-taxonomy.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Register-post-type.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Register-nav-menu.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Register_Sidebar.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Register_Schedule.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Register_Event.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Prevent_Data_Leaks.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Post_Template.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Plugin_Readme.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Plugin_Head.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Plugin_Base_Singleton.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/File_Head.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Custom_Post_Type_Message.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Comment_Template.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Comment_Form_Template.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Clear_Recurring_Event.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/The_Loop.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/Wideget_Template.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/WP_Config_Complete.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/WP_Query.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/Snippets/wp-enqueue-script.sublime-snippet",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/WordPress/WP-Hooks-Completions.sublime-completions",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/style.css",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/new default/less/style.less",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/new default/css/reset.css",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/alienship-dev/inc/wp_bootstrap_navwalker.php",
+		"/Applications/MAMP/htdocs/wordpress.sublime-project",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/index.php",
+		"/Applications/MAMP/htdocs/opesvista.com/css/style.css",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/index_statistic.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/home.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/less/style.less",
+		"/Applications/MAMP/htdocs/wordpress.local/public_html/wp-config.php",
+		"/Applications/MAMP/htdocs/wordpress.local/wp.txt",
+		"/Users/dorosh/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/header.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/withdrawal.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/edit_account.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/security.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/signup.tpl",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/4E6E794F-60AE-48DE-803C-830E59AF458D/rega.css",
+		"/Users/dorosh/Library/Application Support/com.evernote.Evernote/accounts/www.evernote.com/27172961/external-edits/DDE425DC-9BD4-4B85-9202-2A521826A8C1/signup.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/referals.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/referal.links.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/custom/aboutus.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/news.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/news_box.tpl",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/new default/tmpl/news_box.tpl",
+		"/Users/dorosh/Dropbox/Klim/Front end/default GC/new default/tmpl/news.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/deposit.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/deposit.confirm.tpl",
+		"/Applications/MAMP/htdocs/opesvista.com/tmpl/deposit.account.confirm.tpl"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"35",
+			"col-lg-9",
+			"col-lg-6",
+			"xs",
+			"bike",
+			"content-fl",
+			"h3",
+			"review",
+			"slider",
+			".features",
+			"collage-content .features",
+			"margin: 0.67em 0;",
+			"logo2",
+			"col-sm-3",
+			" col-sm-7",
+			"lg",
+			"md",
+			"sm",
+			"md-2",
+			"2",
+			"sm",
+			"col-xs-5 col-md-2",
+			"collage-box collage-box-2 col-xs-5 col-md-2",
+			"xs",
+			"desc",
+			"{\n",
+			"collage",
+			"40",
+			"logo2",
+			"container",
+			"conta",
+			"container-fluid",
+			"83",
+			"<br>",
+			"<br> ",
+			"contac",
+			"requ",
+			"md",
+			"map",
+			"main",
+			"464",
+			"320",
+			"main-menu",
+			"header-co",
+			"md",
+			"toggle",
+			"collage-click",
+			"collage",
+			"collage-box",
+			"collage-anchor",
+			"logo.png",
+			"i",
+			"45",
+			"cont",
+			"contacts-info",
+			"$",
+			"@mixin ",
+			"contacts-info",
+			"anc",
+			"container",
+			"hidden",
+			"html",
+			"container",
+			"height",
+			"col-xs-7",
+			"col-xs-3",
+			"col-sm-3",
+			"col-sm-7",
+			"row",
+			"row-",
+			"xs",
+			"col-md-5",
+			"col-xs-5",
+			"textarea",
+			"col-sm-4",
+			"col-sm-6",
+			"header-contacts",
+			"col-sm-5",
+			"col-sm-6",
+			"col-sm-4",
+			"label",
+			"col-sm-7",
+			"col-sm-3",
+			"col-sm-8",
+			"col-sm-2",
+			"form-group",
+			"sm-8",
+			"col-sm-2",
+			".form-horizontal .control-label",
+			"box-shadow",
+			"control-label",
+			"999999",
+			"form-control",
+			"form-group",
+			"input",
+			"inputPassword3",
+			"username",
+			"inputPassword3",
+			"username",
+			"placeholder=\"Password\"",
+			"placeholder",
+			"password",
+			"legend",
+			"form",
+			"2",
+			"menu",
+			"1",
+			"span",
+			"contacts",
+			"collage-con",
+			"collage-box",
+			"span",
+			"fluid",
+			"row",
+			"col-xs-12",
+			"rotateforward",
+			"45deg",
+			"fadeIn",
+			"-45deg",
+			"</li>",
+			"span",
+			"li",
+			"<span>",
+			"1.1",
+			"opacity 0.35s,",
+			"grid",
+			"lily",
+			"cover"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Please confirm your <b>deposit</b>:"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "less/style.less",
+					"settings":
+					{
+						"buffer_size": 16406,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										7624,
+										7624
+									],
+									[
+										15154,
+										15154
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								14494,
+								14494
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9490.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/mobile.less",
+					"settings":
+					{
+						"buffer_size": 6060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/tablet.less",
+					"settings":
+					{
+						"buffer_size": 11202,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										1087,
+										1087
+									],
+									[
+										4418,
+										4418
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								9684,
+								9684
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5642.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "less/desktop.less",
+					"settings":
+					{
+						"buffer_size": 8183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7088,
+								7088
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4528.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 19323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1206,
+								1206
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"boo",
+				"css/bootstrap.css"
+			],
+			[
+				"scr",
+				"js/scripts.js"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"bo",
+				"css/bootstrap.css"
+			],
+			[
+				"b",
+				"css/bootstrap.css"
+			],
+			[
+				"mob",
+				"less/mobile.less"
+			],
+			[
+				"css",
+				"css/style.css"
+			],
+			[
+				"mo",
+				"less/mobile.less"
+			],
+			[
+				"des",
+				"less/desktop.less"
+			],
+			[
+				"table",
+				"less/tablet.less"
+			],
+			[
+				"ta",
+				"css/tablet.css"
+			],
+			[
+				"c",
+				"collage-content-1.html"
+			],
+			[
+				"col",
+				"collage-content-1.html"
+			],
+			[
+				"sc",
+				"js/scripts.js"
+			],
+			[
+				"boot",
+				"css/bootstrap.css"
+			],
+			[
+				"mod",
+				"js/modulargrid.js"
+			],
+			[
+				"",
+				"bootstrap.css"
+			],
+			[
+				"scri",
+				"js/scripts.js"
+			],
+			[
+				"less",
+				"less/style.less"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"fu",
+				"functions.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"style",
+				"inc/stylesheets.php"
+			],
+			[
+				"min",
+				"style.min.css"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"wp_",
+				"inc/wp_bootstrap_navwalker.php"
+			],
+			[
+				"home",
+				"tmpl/home.tpl"
+			],
+			[
+				"index",
+				"tmpl/index_statistic.tpl"
+			],
+			[
+				"edi",
+				"tmpl/edit_account.tpl"
+			],
+			[
+				"with",
+				"tmpl/withdrawal.tpl"
+			],
+			[
+				"se",
+				"tmpl/security.tpl"
+			],
+			[
+				"sign",
+				"tmpl/signup.tpl"
+			],
+			[
+				"refe",
+				"tmpl/referal.links.tpl"
+			],
+			[
+				"abu",
+				"tmpl/custom/aboutus.tpl"
+			],
+			[
+				"news",
+				"tmpl/news_box.tpl"
+			],
+			[
+				"deposit.co",
+				"tmpl/deposit.confirm.tpl"
+			],
+			[
+				"deposit",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"depos",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"deposi",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"ear",
+				"tmpl/earning_history.tpl"
+			],
+			[
+				"supp",
+				"tmpl/support.tpl"
+			],
+			[
+				"support",
+				"tmpl/support.tpl"
+			],
+			[
+				"foot",
+				"tmpl/footer.tpl"
+			],
+			[
+				"cal",
+				"js/calculator.js"
+			],
+			[
+				"login",
+				"tmpl/login.tpl"
+			],
+			[
+				"acc",
+				"tmpl/account_main.tpl"
+			],
+			[
+				"footer",
+				"tmpl/footer.tpl"
+			],
+			[
+				"ne",
+				"tmpl/news_box.tpl"
+			],
+			[
+				"inves",
+				"tmpl/custom/invest.tpl"
+			],
+			[
+				"inve",
+				"tmpl/lang/ru/custom/invest.tpl"
+			],
+			[
+				"red",
+				"tmpl/login_redirect.tpl"
+			],
+			[
+				"actio",
+				"tmpl/lang/ru/custom/actions.tpl"
+			],
+			[
+				"faq",
+				"tmpl/faq.tpl"
+			],
+			[
+				"acti",
+				"tmpl/custom/actions.tpl"
+			],
+			[
+				"ana",
+				"tmpl/custom/analitic.tpl"
+			],
+			[
+				"d",
+				"tmpl/deposit.tpl"
+			],
+			[
+				"suppo",
+				"tmpl/lang/ru/support.tpl"
+			],
+			[
+				"anal",
+				"tmpl/custom/analitic.tpl"
+			],
+			[
+				"su",
+				"tmpl/lang/ru/support.php"
+			],
+			[
+				"refer",
+				"tmpl/referal.links.tpl"
+			],
+			[
+				"acco",
+				"tmpl/account_main.tpl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/dorosh/Desktop/KANN/kann.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

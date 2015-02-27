@@ -1,0 +1,388 @@
+/* iPads (portrait and landscape) ----------- */
+@media (-webkit-min-device-pixel-ratio: 2) {
+  .main-logo {
+    background: url(../img/logo-m-retina.png) no-repeat;
+  }
+}
+@media only screen and (min-device-width: 600px) and (max-device-width: 1224px) {
+  .button-red {
+    font: 1.88rem/75px 'proxima_nova_ltlight';
+    width: 323px;
+    height: 75px;
+  }
+  .button-blue {
+    width: 323px;
+    height: 75px;
+    font: 1.88rem/75px 'proxima_nova_ltlight';
+  }
+  .site-header {
+    height: 644px;
+  }
+  .main-menu {
+    display: none;
+  }
+  .main-menu-mobile {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: -464px;
+    width: 464px;
+    background-color: #060815;
+    padding: 94px 40px;
+    will-change: transform;
+    font: 2.06em 'proxima_nova_ththin';
+    height: 1370px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .main-menu-mobile a.ancLinks {
+    padding: 6% 0;
+    display: block;
+    color: #d0d9d6;
+    text-decoration: none;
+    font-size: 2.06rem;
+    line-height: 2.25rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .main-menu-mobile a.ancLinks + a {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .main-menu-mobile a.ancLinks:hover,
+  .main-menu-mobile a.ancLinks:focus {
+    color: #15c3d6;
+    outline: none;
+  }
+  .main-menu-mobile .tel {
+    display: block;
+    color: #d0d9d6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 2.06rem/53px 'proxima_nova_ththin';
+    position: absolute;
+    top: 34px;
+    right: 45px;
+  }
+  .main-menu-mobile .tel::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url(../img/icon1.png) center no-repeat;
+    width: 24px;
+    height: 53px;
+    top: 0;
+    left: -36px;
+  }
+  .main-menu-mobile .tel:hover,
+  .main-menu-mobile .tel:focus {
+    color: #15c3d6;
+    outline: none;
+  }
+  .main-menu-mobile .email {
+    color: #d0d9d6;
+    display: block;
+    font: 33px/79px 'proxima_nova_ltlight';
+    border: 1px solid #919baa;
+    text-align: center;
+    margin: 47px 0 25px 86px;
+    position: relative;
+    text-decoration: none;
+    width: 293px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .main-menu-mobile .email::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url(../img/icon2m.png) center no-repeat;
+    top: -1px;
+    left: -86px;
+    width: 86px;
+    height: 81px;
+    border: 1px solid #919baa;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .main-menu-mobile .email:hover,
+  .main-menu-mobile .email:focus {
+    border-color: #fff;
+    color: #fff;
+  }
+  .main-menu-mobile .email:hover::before,
+  .main-menu-mobile .email:focus::before {
+    border-color: #fff;
+    background: url(../img/icon2h.png) center no-repeat;
+  }
+  .main-menu-mobile .email:active {
+    border-color: #15c3d6;
+    color: #15c3d6;
+  }
+  .main-menu-mobile .email:active::before {
+    border-color: #15c3d6;
+    background: url(../img/icon2a.png) center no-repeat;
+  }
+  .main-menu-active {
+    -webkit-transform: translate3d(464px, 0, 0);
+    transform: translate3d(464px, 0, 0);
+  }
+  .site-move {
+    -webkit-transform: translate3d(464px, 0, 0);
+    transform: translate3d(464px, 0, 0);
+  }
+  .container-fluid h3 {
+    font-size: 2.81rem;
+  }
+  .container-fluid p.description {
+    font-size: 2.06rem;
+  }
+  .main-logo {
+    background: url(../img/logo-m.png) no-repeat;
+    position: absolute;
+    width: 366px;
+    height: 217px;
+    top: 242px;
+    left: 50%;
+    margin-left: -183px;
+  }
+  .contacts-info {
+    margin-top: 80px;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+  .contacts-info .contacts-info-block:nth-child(2) {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .contacts-info .contacts-info-block:nth-child(3) {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .contacts-info .logo-2 {
+    display: none;
+  }
+  .contacts-info .contacts-info-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .contacts-info .tel,
+  .contacts-info .email {
+    text-align: center;
+  }
+  .contacts-info .address p {
+    font-size: 2.06rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+  .contacts-info .social {
+    margin-top: 95px;
+    text-align: center;
+  }
+  .contacts-info .social a {
+    display: inline-block;
+    width: 83px;
+    height: 83px;
+    border: 2px solid #e7e7e9;
+    border-radius: 50%;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .contacts-info .social a:hover,
+  .contacts-info .social a:focus {
+    border: 2px solid #0596a6;
+  }
+  .contacts-info .social a:nth-child(1) {
+    background: url(../img/s1-big.png) center no-repeat;
+  }
+  .contacts-info .social a:nth-child(2) {
+    margin-left: 15px;
+    background: url(../img/s2-big.png) center no-repeat;
+  }
+  .contacts-info .tel {
+    margin-top: 85px;
+    font-size: 2.06rem;
+  }
+  .contacts-info .email {
+    margin-top: 87px;
+    font-size: 2.25rem;
+  }
+  .contacts-info .email span {
+    margin-top: 5px;
+    display: block;
+    font-size: 2.25rem;
+  }
+  .request .form-group {
+    margin-bottom: 0;
+  }
+  .request .control-label {
+    padding: 38px 0 20px;
+    font-size: 2.06rem;
+  }
+  .request .form-control {
+    padding: 38px 0 20px;
+    font-size: 2.06rem;
+  }
+  .request textarea.form-control {
+    margin: 87px 0 0 0;
+    padding: 24px;
+  }
+  .request .form-left,
+  .request .form-right,
+  .request .form-textarea,
+  .request .form-btn {
+    padding: 0;
+  }
+  /***************************** Content *******************************/
+  .collage-content-1 {
+    padding-top: 120px;
+  }
+  .collage-content-1 h1 {
+    font: 5.19rem 'proxima_nova_ththin';
+  }
+  .collage-content-1 h3 {
+    font: 2.06rem 'proxima_nova_ththin';
+  }
+  .collage-content-1 blockquote.big-blockquote {
+    font: italic 2.5rem/3.5rem 'PT Serif Caption';
+  }
+  .collage-content-1 blockquote.small-blockquote {
+    font: italic 1.25rem/2.25rem 'PT Serif Caption';
+  }
+  .collage-content-1 small {
+    margin-top: 40px;
+    font: 2.06rem 'proxima_nova_rgregular';
+  }
+  .collage-content-1 .features h3 {
+    text-align: center;
+    font: 2.5rem 'proxima_nova_ththin';
+  }
+  .collage-content-1 .features ul {
+    padding-left: 59px;
+    max-width: none;
+  }
+  .collage-content-1 .features ul:nth-child(1) {
+    margin-left: 0;
+  }
+  .collage-content-1 .features ul + ul {
+    margin-left: 0;
+  }
+  .collage-content-1 .features .bike-image {
+    background: url(../img/bike-m.png) no-repeat center top;
+    height: 384px;
+  }
+  .collage-content-1 .features li {
+    font: 2.06rem/1.94rem 'proxima_nova_rgregular';
+    padding: 32px 0;
+  }
+  .collage-content-1 .features li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url(../img/icon5-m.png) no-repeat;
+    top: 33px;
+    left: -59px;
+    width: 33px;
+    height: 22px;
+  }
+  .collage-content-1 .features .link-wrapper {
+    width: 337px;
+    margin: 0 auto;
+    height: 53px;
+    background: #fff;
+    position: relative;
+    top: 35px;
+  }
+  .collage-content-1 .features a {
+    font: 1.88rem/75px 'proxima_nova_ltlight';
+    width: 323px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+  }
+  .user-reviews {
+    margin: 100px 0 160px;
+  }
+  .user-reviews h4 {
+    font: 2.5rem 'proxima_nova_ththin';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  .user-reviews .small-blockquote {
+    margin-top: 40px;
+  }
+  .user-reviews small {
+    text-align: left;
+  }
+  .review {
+    position: relative;
+    height: 162px;
+  }
+  .review .user-pic {
+    background: url(../img/user.png) no-repeat;
+  }
+  #nav {
+    height: 14px;
+    position: absolute;
+    bottom: -40px;
+    width: 72px;
+    z-index: 3;
+    left: 40px;
+  }
+  #nav a {
+    background: url(../img/mark1.png) no-repeat center;
+    display: block;
+    float: left;
+    height: 11px;
+    margin: 0 2px;
+    text-indent: -9999px;
+    width: 12px;
+  }
+  #nav a:hover,
+  #nav a:focus {
+    background: url(../img/mark3.png) center no-repeat;
+  }
+  #nav a.activeSlide {
+    background: url(../img/mark2.png) no-repeat center;
+  }
+  .separator {
+    height: 125px;
+  }
+  .separator::before,
+  .separator::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #e8e8ea;
+    z-index: -1;
+    position: relative;
+    vertical-align: middle;
+  }
+  .separator::before {
+    right: 15px;
+    margin: 0 0 0 -100%;
+  }
+  .separator::after {
+    left: 15px;
+    margin: 0 -100% 0 0;
+  }
+  .separator-icon {
+    background: url(../img/icon4.png) center no-repeat, #ffffff;
+    margin: 0 auto;
+    width: 136px;
+    height: 71px;
+    position: relative;
+    top: 45px;
+  }
+}

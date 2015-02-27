@@ -1,0 +1,327 @@
+.slow (@sec:.2s) { -webkit-transition: all @sec ease-in-out; -moz-transition: all @sec ease-in-out; -ms-transition: all @sec ease-in-out; -o-transition: all @sec ease-in-out; transition: all @sec ease-in-out; }
+@c-main: #16112a;
+@c-blue: #d0d9d6;
+@c-grey: #515151;
+@c-red: #ff4552;
+@c-sky: #15c3d6;
+@c-sea: #0596a6;
+@c-border: #e8e8ea;
+@c-violet: #211b39;
+@ff-t: 'proxima_nova_ththin';
+@ff-r: 'proxima_nova_rgregular';
+@ff-l: 'proxima_nova_ltlight';
+@ff-b: 'proxima_nova_rgbold';
+@black-filter: rgba(12,12,48,.58);
+.button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    font: 20px/53px @ff-l;
+}
+.button-red {
+    .button;
+    color: @c-red;
+    width: 288px;
+    height: 53px;
+    border: 1px solid @c-red;
+    .slow;
+    &:hover, &:focus {
+        border-color: @c-violet;
+        color: @c-violet;
+    }
+    &:active {
+        background: @c-red;
+        color: #fff;
+        border-color: @c-red;
+    }
+}
+.button-blue {
+    .button;
+    width: 228px;
+    height: 53px;
+    line-height: 55px;
+    background-color: #151129;
+    color: #fff;
+    &:hover, &:focus {
+        background-color: #211b39;
+    }
+    &:active {
+        background-color: @c-sea;
+    }
+}
+@media only screen 
+and (min-width : 1224px)  {
+    .main-menu {
+        a {
+            font: 1em/22px @ff-t;
+        }
+    }
+    .header-contacts {
+        display: block;
+    }
+    .collage-anchor {
+        display: block;
+    }
+    // COLLAGE 
+
+    .collage-box {
+        .description {
+            font: 1.25rem/1.38rem @ff-t;
+        }
+    }
+    .contacts-info {
+        margin-top: 158px;
+        .address {
+            border-left: 1px solid #e8e8ea;
+        }
+        .social {
+            margin-top: 24px;
+            a {
+                float: left;
+                width: 45px;
+                height: 45px;
+                border: 2px solid #e7e7e9;
+                border-radius: 50%;
+                background-clip: padding-box;
+                .slow;
+                &:hover, &:focus {
+                    border: 2px solid @c-sea;
+                }
+                &:active {
+                    &:nth-child(1) {
+                        background: url(../img/s1a.png) center no-repeat, @c-sea;
+                    }
+                    &:nth-child(2) {
+                        margin-left: 15px;
+                        background: url(../img/s2a.png) center no-repeat, @c-sea;
+                    }
+                }
+                &:nth-child(1) {
+                    background: url(../img/s1.png) center no-repeat;
+                }
+                &:nth-child(2) {
+                    margin-left: 15px;
+                    background: url(../img/s2.png) center no-repeat;
+                }
+            }
+        }
+    }
+    .contacts-info {
+        .contacts-info-block {
+            &:nth-child(1) {
+                width: 270px;
+            }
+            &:nth-child(2) {
+                margin-left: 94px;
+            }
+            &:nth-child(3) {
+                margin-left: 104px;
+                p {
+                    padding: 30px 0 30px 90px;
+                    width: 340px;
+                }
+            }
+        }
+    }
+    .request {
+        .form-left {
+            padding-left: 138px;
+        }
+        .form-right {
+            padding-left: 105px;
+        }
+        .form-group {
+            max-width: 316px;
+            margin: 0;
+        }
+        .form-control {
+            line-height: 59px;
+        }
+        .control-label {
+            line-height: 59px;
+        }
+        textarea.form-control {
+            max-width: 770px;
+            padding: 5px 29px;
+        }
+    }
+/***************************** Content *******************************/
+
+    // collage-content-1
+
+    .collage-content-1 {
+        padding-top: 149px;
+        h1 {
+            color: @c-sea;
+            font: 6.25rem @ff-t;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        h3 {
+            font: 2.5rem @ff-t;
+            letter-spacing: 7px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        blockquote.big-blockquote {
+            margin-top: 40px;
+            font: italic 2.5rem/3.5rem 'PT Serif Caption';
+            text-align: center;
+        }
+        blockquote.small-blockquote {
+            font: italic 1.25rem/2.25rem 'PT Serif Caption';
+            text-align: left;
+            color: @c-grey;
+        }
+        small {
+            margin-top: 20px;
+            display: block;
+            font: 16px @ff-r;
+            text-align: center;
+        }
+        .features {
+            h3 {
+            }
+            ul {
+                float: left;
+                max-width: 320px;
+                &:nth-child(1) {
+                    margin-left: 45px;
+                }
+                +ul {
+                    margin-left: 111px;
+                }
+            }
+            .bike-image {
+                margin-top: 78px;
+                background: url(../img/bike.png) no-repeat -33px top;
+                height: 597px;
+            }
+            li {
+                font: 1.19rem/1.94rem @ff-r;
+                position: relative;
+                +li {
+                    border-top: 1px solid @c-border;
+                }
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    background: url(../img/icon5.png) no-repeat;
+                    top: 17px;
+                    left: -38px;
+                    width: 21px;
+                    height: 14px;
+                }
+            }
+            .link-wrapper {
+                width: 337px;
+                margin: 0 auto;
+                height: 53px;
+                background: #fff;
+                position: relative;
+                top: 35px;
+            }
+            a {
+                .button-red;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .user-reviews {
+        margin: 100px 0 160px;
+        h4 {
+            font: 2.5rem @ff-t;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        .small-blockquote {
+            margin: 40px 0 0 23px;
+        }
+        small {
+            text-align: left;
+            margin-left: 23px;
+        }
+    }
+    .review {
+        // margin-left: 28%;
+        position: relative;
+        height: 162px;
+        .user-pic {
+            margin-top: 30px;
+            background: url(../img/user.png) no-repeat;
+            width: 162px;
+            height: 162px;
+        }
+    }
+    #nav {
+        height: 14px;
+        position: absolute;
+        bottom: -60px;
+        width: 72px;
+        z-index: 3;
+        left: 38px;
+    }
+    #nav a {
+        background: url(../img/mark1.png) no-repeat center;
+        display: block;
+        float: left;
+        height: 11px;
+        margin: 0 2px;
+        text-indent: -9999px;
+        width: 12px;
+        &:hover, &:focus {
+            background: url(../img/mark3.png) center no-repeat;
+        }
+    }
+    #nav a.activeSlide {
+        background: url(../img/mark2.png) no-repeat center;
+    }
+
+
+    .separator {
+        height: 125px;
+        &::before,
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 100%;
+            height: 1px;
+            background: @c-border;
+            z-index: -1;
+            position: relative;
+            vertical-align: middle;
+        }
+        &::before {
+            right: 15px;
+            margin: 0 0 0 -100%;
+        }
+        &::after {
+            left: 15px;
+            margin: 0 -100% 0 0;
+        }
+    }
+    .separator-icon {
+        background: url(../img/icon4.png) center no-repeat, #fff;
+        margin: 0 auto;
+        width: 136px;
+        height: 71px;
+        position: relative;
+        top: 45px;
+    }
+}
+@media (min-width: 768px) {
+    .request {
+        textarea.form-control {
+            // margin-left: 50px;
+        }
+    }
+}
